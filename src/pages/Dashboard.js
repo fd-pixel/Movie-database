@@ -36,6 +36,7 @@ const Dashboard = () => {
           placeholder="Search a movie..."
           onChange={(e) => setQuery(e.target.value)}
           id=""
+          autoFocus
         />
       </form>
       <div className="movie-container">
